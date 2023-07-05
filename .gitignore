@@ -17,6 +17,7 @@
 .env.production.local
 secrets*.*sh
 /change-permissions.js
+.npmrc
 
 npm-debug.log*
 yarn-debug.log*
@@ -26,8 +27,6 @@ yarn-error.log*
 .idea
 **/.tern-port
 package-lock.json
-
-
 
 # Ignore lib directory (this is not in npmignore because it should be published)
 /lib/
