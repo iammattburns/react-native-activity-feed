@@ -13,7 +13,7 @@ building scalable newsfeeds and activity streams.
 
 ## :warning: This SDK is no longer actively maintained by Stream
 
-A Feeds integration includes a combination of server-side and client-side code and the interface can vary widely which is why we are no longer focussing on supporting this SDK. If you are starting from scratch we recommend you only use the server-side SDKs. 
+A Feeds integration includes a combination of server-side and client-side code and the interface can vary widely which is why we are no longer focussing on supporting this SDK. If you are starting from scratch we recommend you only use the server-side SDKs.
 
 This is by no means a reflection of our commitment to maintaining and improving the Feeds API which will always be a product that we support.
 
