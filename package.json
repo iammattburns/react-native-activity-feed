@@ -1,11 +1,8 @@
 {
-  "name": "react-native-activity-feed-core",
-  "version": "1.1.3",
+  "name": "@iammattburns/react-native-activity-feed-core",
+  "version": "1.1.2",
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "",
-    "company": "Stream.io Inc"
-  },
+  "author": "Matt Burns",
   "keywords": [
     "feed",
     "newsfeed",
@@ -100,5 +97,21 @@
   "files": [
     "src",
     "README.md"
-  ]
+  ],
+  "description": "> React Native components to create activity and notification feeds using Stream",
+  "bin": {
+    "react-native-activity-feed-core": "bin/validate-translations.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://iammattburns@github.com/iammattburns/react-native-activity-feed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iammattburns/react-native-activity-feed/issues"
+  },
+  "homepage": "https://github.com/iammattburns/react-native-activity-feed#readme"
 }
