@@ -37,8 +37,7 @@ const activity = {
         'Why choose one when you can wear both? These energizing pairings stand out from the crowd',
       title:
         "'Queen' rapper rescheduling dates to 2019 after deciding to &#8220;reevaluate elements of production on the 'NickiHndrxx Tour'",
-      url:
-        'https://www.rollingstone.com/music/music-news/nicki-minaj-cancels-north-american-tour-with-future-714315/',
+      url: 'https://www.rollingstone.com/music/music-news/nicki-minaj-cancels-north-american-tour-with-future-714315/',
       images: [
         {
           image:

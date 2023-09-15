@@ -18,14 +18,8 @@ class NewActivitiesNotification extends React.Component {
   };
 
   _labelFunction = () => {
-    const {
-      adds,
-      deletes,
-      labelSingular,
-      labelPlural,
-      labelFunction,
-      t,
-    } = this.props;
+    const { adds, deletes, labelSingular, labelPlural, labelFunction, t } =
+      this.props;
     const addCount = (adds || []).length;
     const deleteCount = (deletes || []).length;
     const count = addCount + deleteCount;

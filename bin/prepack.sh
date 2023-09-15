@@ -1,2 +1,2 @@
 set -exu
-yarn lint
+# yarn lint

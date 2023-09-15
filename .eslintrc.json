@@ -50,6 +50,9 @@
         "paths": ["src"]
       }
     },
+    "jest": {
+      "version": 29
+    },
     "react": {
       "pragma": "React",
       "version": "detect"

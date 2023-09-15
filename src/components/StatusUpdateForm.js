@@ -29,7 +29,8 @@ const ImageState = Object.freeze({
   UPLOAD_FAILED: Symbol('upload_failed'),
 });
 
-const urlRegex = /(?:\s|^)((?:https?:\/\/)?(?:[a-z0-9-]+(?:\.[a-z0-9-]+)+)(?::[0-9]+)?(?:\/(?:[^\s]+)?)?)/g;
+const urlRegex =
+  /(?:\s|^)((?:https?:\/\/)?(?:[a-z0-9-]+(?:\.[a-z0-9-]+)+)(?::[0-9]+)?(?:\/(?:[^\s]+)?)?)/g;
 class StatusUpdateForm extends React.Component {
   static defaultProps = {
     feedGroup: 'user',
@@ -182,7 +183,7 @@ class StatusUpdateFormInner extends React.Component {
     const result = await pickImage({
       compressImageQuality: this.props.compressImageQuality,
     });
-    if (result.cancelled) {
+    if (result.canceled) {
       return;
     }
 
